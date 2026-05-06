@@ -2,23 +2,23 @@
   "__parent": "./config.json"
 , "person": {
       "name": {
-          "first":  "Tomas"
-        , "last":   "Baltrushaitis"
-        , "full":   "@{./last} @{./first}"
+          "first":  "Amin"
+        , "last":   "Hajjari"
+        , "full":   "@{./first} @{./last}"
       }
-    , "nick":   "Tom&acute;AS"
-    , "abbr":   "tbaltrushaitis"
-    , "email":  "@{./abbr}@gmail.com"
-    , "url":    "http://bit.ly/tomascv"
+    , "nick":   "Amin Hajjari"
+    , "abbr":   "aminhajjari"
+    , "email":  "amminhajjari@gmail.com"
+    , "url":    "https://github.com/aminhajjari"
     , "bio": {
-          "birth":        "October &apos;82"
-        , "citizenship":  "Ukrainian"
+          "birth":        ""
+        , "citizenship":  "Iranian"
         , "location": {
-              "country":  "Ukraine"
-            , "city":     "Kyiv"
+              "country":  "Iran"
+            , "city":     "Shiraz"
             , "full":     "@{./country}, @{./city}"
-            , "lat":      50.436336
-            , "lng":      30.488619
+            , "lat":      31.898043
+            , "lng":      54.367523
             , "geo": {
                   "lat":  "@{./lat}"
                 , "lng":  "@{./lng}"
@@ -26,9 +26,9 @@
           }
       }
     , "home": {
-          "pos-prefix": "full-stack"
-        , "pos-title":  "engineer"
-        , "pos-tags":   "#high #skilled #experienced #guru"
+          "pos-prefix": "AI"
+        , "pos-title":  "Researcher"
+        , "pos-tags":   "#DeepLearning #ComputerVision #TrustworthyAI #LLM"
       }
     , "socials": {
         "linkedin": {
@@ -36,33 +36,18 @@
           , "label":  "LinkedIn"
           , "title":  "LinkedIn profile"
           , "icon":   "fab fa-linkedin"
-          , "url":    "http://bit.ly/tomas-in"
+          , "url":    "https://www.linkedin.com/in/amin-hajjari-690609170"
         }
       , "github": {
             "name":   "github"
           , "label":  "Github"
           , "title":  "Github account"
           , "icon":   "fab fa-github"
-          , "url":    "http://bit.ly/tomas-git"
-        }
-      , "bitbucket": {
-            "name":   "bitbucket"
-          , "label":  "BitBucket"
-          , "title":  "BitBucket repos"
-          , "icon":   "fab fa-bitbucket"
-          , "url":    "http://bit.ly/tomas-bb"
-        }
-      , "dockerhub": {
-            "name":   "dockerhub"
-          , "label":  "Docker"
-          , "title":  "Docker Hub"
-          , "icon":   "fab fa-docker"
-          , "url":    "http://bit.ly/tomas-hub"
+          , "url":    "https://github.com/aminhajjari"
         }
       }
     , "contacts": {
-          "cell":   "KzM4MCg2Myk1NDUtMjMtb25lLTM="
-        , "email":  "bWFpbHRvOnRiYWx0cnVzaGFpdGlzQGdtYWlsLmNvbQ=="
+          "email":  "amminhajjari@gmail.com"
       }
   }
 }

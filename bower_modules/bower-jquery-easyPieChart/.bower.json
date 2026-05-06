@@ -1,0 +1,32 @@
+{
+  "name": "bower-jquery-easyPieChart",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nicolabortignon/bower-jquery-easyPieChart",
+  "authors": [
+    "Nicola Bortignon <info@nicolabortignon.com>"
+  ],
+  "description": "Wrapper for the jquery easyPieChart containing the polyfill",
+  "main": "./dist/jquery.easypiechart.js",
+  "keywords": [
+    "pieChart",
+    "chart",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "1fcfd1593cc782446993ad172016eb31268a19fd"
+  },
+  "_source": "https://github.com/nicolabortignon/bower-jquery-easyPieChart.git",
+  "_target": "^0.0.1",
+  "_originalSource": "bower-jquery-easyPieChart"
+}

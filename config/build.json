@@ -1,0 +1,15 @@
+{
+    "__parent": "./colors.json"
+  , "env":      "development"
+  , "version":  "0.3.1"
+  , "cntr":     1
+  , "branch":   "main"
+  , "commit":   "local"
+  , "built": {
+        "hash": "local-build"
+      , "date": "2026-05-04"
+      , "time": "00:00:00"
+      , "year": "2026"
+      , "full": "2026-05-04 00:00:00"
+    }
+}
