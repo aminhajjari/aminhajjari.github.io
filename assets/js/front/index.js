@@ -18,6 +18,8 @@ window.jQuery(function ($) {
   // Waypoints
   // ---------------------------------------------------------------------------
   let wShow = function (o) {
+    // Skip entries whose selector is empty or not on the page (avoids a Waypoints crash)
+    if (!o || !o.selector || !$(o.selector).length) { return null; }
     let opts = Object.assign({}, defOpts || {}, o || {});
 
     return new window.Waypoint.Inview({
