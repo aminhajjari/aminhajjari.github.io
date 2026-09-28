@@ -32,27 +32,36 @@
   <meta property="og:image:alt"    content="Photo of Amin Hajjari" />
   <meta property="og:site_name"    content="CV, Resume and Portfolio - Amin Hajjari" />
 
-  <link rel="preload" crossOrigin="anonymous" as="font" type="font/woff2" href="assets/webfonts/fa-regular-400.woff2" />
-  <link rel="preload" crossOrigin="anonymous" as="font" type="font/woff2" href="assets/webfonts/fa-brands-400.woff2" />
-  <link rel="preload" crossOrigin="anonymous" as="font" type="font/woff2" href="assets/webfonts/fa-solid-900.woff2" />
-  <link rel="preload" as="image" type="image/webp" href="assets/img/home2.webp" />
+  <!-- ===== Libraries (loaded from jsDelivr CDN; the old bower-bundle files are missing) ===== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap" />
 
-  <link rel="preload" crossOrigin="anonymous" as="style" href="assets/css/bower-bundle.css" onload="this.onload=null;this.rel='stylesheet'" id="css-bower-bundle" />
-  <noscript><link rel="stylesheet" href="assets/css/bower-bundle.css" id="css-bower-bundle-noscript" /></noscript>
+  <!-- ===== Site styles (these files already exist in assets/css) ===== -->
+  <link rel="stylesheet" href="assets/css/default.css" />
+  <link rel="stylesheet" href="assets/css/fonts.css" />
+  <link rel="stylesheet" href="assets/css/theme.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/og-grid.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  <link rel="stylesheet" href="assets/css/custom-animations.css" />
+  <link rel="stylesheet" href="assets/css/fa-colors.css" />
 
-  <link rel="preload" crossOrigin="anonymous" as="style" href="assets/css/frontend-bundle.css" onload="this.onload=null;this.rel='stylesheet'" id="css-frontend-bundle" />
-  <noscript><link rel="stylesheet" href="assets/css/frontend-bundle.css" id="css-frontend-bundle-noscript" /></noscript>
+  <!-- theme.css points to .webp images that are not in the repo; use the existing .jpg/.png -->
+  <style>
+    #home              { background-image: url("assets/img/home2.jpg"); background-size: cover; }
+    .section-title::after { background-image: url("assets/img/section-divider.png"); }
+    .myphoto           { background-image: url("assets/img/photo-frame.png"); }
+    .facts-section     { background-image: url("assets/img/video-bg.jpg"); }
+  </style>
 
-  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <![endif]-->
-  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
-
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/ico/apple-touch-icon-144-precomposed.webp" />
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/ico/apple-touch-icon-114-precomposed.webp" />
-  <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="assets/img/ico/apple-touch-icon-72-precomposed.webp" />
-  <link rel="apple-touch-icon-precomposed" sizes=""        href="assets/img/ico/apple-touch-icon-57-precomposed.webp" />
-
-  <link type="image/x-icon" href="favicon.webp" rel="icon" />
-  <link type="image/x-icon" href="favicon.webp" rel="shortcut icon" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="assets/img/ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed"                 href="assets/img/ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="icon" type="image/png" href="assets/img/ico/favicon.png" />
 
 </head>
 
@@ -979,7 +988,28 @@
   </div>
 
   <!--/  Javascript files  /-->
-  <script defer="defer" src="assets/js/lib/libs-bundle.js"></script>
+  <!-- ===== Libraries that used to be inside assets/js/lib/libs-bundle.js ===== -->
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/jquery.waypoints.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/shortcuts/inview.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/jquery-inview@1.1.2/jquery.inview.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/jquery-sticky@1.0.4/jquery.sticky.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/easy-pie-chart@2.1.7/dist/jquery.easypiechart.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/shufflejs@5.4.1/dist/shuffle.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/noty@2.4.1/js/noty/packaged/jquery.noty.packaged.min.js"></script>
+
+  <!-- Safety net: if any script fails, still show the page after 3 seconds -->
+  <script>
+    setTimeout(function () {
+      document.documentElement.style.visibility = 'visible';
+      document.documentElement.style.opacity = '1';
+      var p = document.getElementById('tt-preloader');
+      if (p) { p.style.display = 'none'; }
+    }, 3000);
+  </script>
   <script defer="defer" src="assets/js/front/index.js"></script>
   <script defer="defer" src="assets/js/front/theme.js"></script>
   <script src="assets/js/front/gmap.js"></script>
